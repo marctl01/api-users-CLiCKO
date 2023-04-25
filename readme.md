@@ -4,7 +4,7 @@ Este proyecto implementa un CRUD básico de usuarios utilizando Laravel 9. La AP
 
 
 INSTALACIÓN: 
-Clonar el repositorio desde GitHub:    git clone https://github.com/marctl01/api-users-CLiCKO.git
+Clonar el repositorio desde GitHub:    git clone https://github.com/marctl01/api-users-CLiCKO
 
 Configurar la base de datos en el archivo .env.
 
