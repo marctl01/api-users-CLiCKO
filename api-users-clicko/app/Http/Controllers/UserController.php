@@ -67,6 +67,6 @@ class UserController extends Controller
     public function destroy($id)
     {
         User::destroy($id);
-        return response()->json(['message' => 'User deleted']);
+        return response()->json(['message' => 'User deleted'], 200);
     }
 }
