@@ -9,8 +9,8 @@ Clonar el repositorio desde GitHub:    git clone https://github.com/marctl01/api
 
 Configurar la base de datos en el archivo .env.
 
-Actualizacion de  dependencias:
-- composer update
+Instalacion de dependencias:
+- composer install
 
 Ejecutar las migraciones para crear la tabla de usuarios:
 - php artisan migrate
