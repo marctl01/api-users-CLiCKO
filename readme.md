@@ -3,6 +3,7 @@ Proyecto de API de usuarios.
 Este proyecto implementa un CRUD básico de usuarios utilizando Laravel 9. La API se puede consumir utilizando Postman y requiere autenticación.
 
 
+
 INSTALACIÓN: 
 Clonar el repositorio desde GitHub:    git clone https://github.com/marctl01/api-users-CLiCKO
 
@@ -21,9 +22,11 @@ Iniciar el servidor de Laravel:
 - php artisan serve
 
 
+
 RUTAS:
 
 POST /api/register : Registra un usuario.
+- http://localhost:8000/api/register
 
 {
     "name":"admin",
@@ -34,7 +37,7 @@ POST /api/register : Registra un usuario.
 }
 
 POST /api/login : Comprueba el email y la password, devuelve un token para poder acceder a los metodos del CRUD
-
+- http://localhost:8000/api/login
 {
     "email":"adm@adm.com",
     "password":"1234"
